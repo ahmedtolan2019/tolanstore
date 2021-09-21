@@ -18,7 +18,8 @@ const history = require("connect-history-api-fallback");
 const fileName = process.argv[2] || "./data.js";
 
 //port
-const port = process.env.port || process.argv[3];
+const port = process.env.port || process.argv[3] || 80;
+const host = "0.0.0.0";
 //setup json-server router
 let router = undefined;
 let graph = undefined;
@@ -64,4 +65,6 @@ chokidar.watch(fileName).on("change", () => {
   console.log("reloading web service data...");
 });
 
-app.listen(port, () => console.log(`web srvice running on the port ${port}`));
+app.listen(port, host, () =>
+  console.log(`web srvice running on the port ${port}`)
+);
