@@ -42,7 +42,7 @@ export default class Card extends Component {
           <>
             <ImgContainer className="p-1">
               <img
-                src={`${process.env.PUBLIC_URL}/${this.props.product.img}`}
+                src={`${this.props.product.img}`}
                 alt="card"
                 onLoad={this.handleLoad}
               />

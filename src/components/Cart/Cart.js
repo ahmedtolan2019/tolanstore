@@ -153,7 +153,7 @@ export default class Cart extends Component {
                           key={item.product.id}
                           name={item.product.name}
                           items={item.quantity}
-                          image={`${process.env.PUBLIC_URL}/${item.product.img}`}
+                          image={`${item.product.img}`}
                           price={item.product.price}
                           handleIncrease={() =>
                             this.props.updateCartQuantity(

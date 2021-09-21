@@ -32,7 +32,7 @@ export default class Sidebar extends Component {
               />
             </span>
           </CloseContainer>
-          <Avatar />
+          <Avatar img="https://i.ibb.co/0MWH0Gq/user-2.png" />
           <Title>{this.props.title ? this.props.title : "Categories"}</Title>
           <Searchbar />
           <Selector
