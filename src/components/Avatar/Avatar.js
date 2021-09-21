@@ -8,7 +8,7 @@ class Avatar extends Component {
       : `${process.env.PUBLIC_URL}/assets/users/user.png`;
     return (
       <Container>
-        <Img src={imgUrl} />
+        <Img width="60px" src={imgUrl} />
         <Content>
           <UserName>{this.props.name ? this.props.name : "User Name"}</UserName>
           <Role>{this.props.role ? this.props.role : "addedrole"}</Role>

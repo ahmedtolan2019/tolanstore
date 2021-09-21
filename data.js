@@ -617,13 +617,24 @@ let categories = [
 ];
 let products = [];
 var imgs = [1, 2, 3, 4, 5, 6, 7];
+var imgUrls = [
+  "https://i.ibb.co/x7wqcM8/Rectangle-7-2x.png",
+  "https://i.ibb.co/yWK1cVR/Rectangle-6-2x.png",
+  "https://i.ibb.co/qMpkkQh/Rectangle-4-2x.png",
+  "https://i.ibb.co/jD4RVm9/Rectangle-5-2x.png",
+  "https://i.ibb.co/tCM5PdR/Rectangle-3-2x.png",
+  "https://i.ibb.co/XLbysCt/Rectangle-2-2x.png",
+  "https://i.ibb.co/tLd4jMR/Rectangle-1-2x.png",
+  "https://i.ibb.co/0MWH0Gq/user-2.png",
+];
 for (let i = 1; i <= 503; i++) {
   let category = faker.helpers.randomize(categories);
   let img = faker.helpers.randomize(imgs);
+  let imgUrl = faker.helpers.randomize(imgUrls);
 
   products.push({
     id: i,
-    img: `assets/products/Rectangle -${img}@2x.png`,
+    img: `${imgUrl}`,
     name: faker.commerce.productName(),
     category: category.name,
     description: { body: `${faker.lorem.sentence(3)}` },
