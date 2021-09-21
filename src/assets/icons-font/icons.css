@@ -1,0 +1,113 @@
+/* =================== Icons ==================== */
+
+@font-face {
+  font-family: "icomoon";
+  src: url("./icomoon.eot");
+  src: url("./icomoon.eot") format("embedded-opentype"),
+    url("./icomoon.ttf") format("truetype"),
+    url("./icomoon.woff") format("woff"), url("./icomoon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add-blue:before {
+  content: "\e900";
+  color: #3498db;
+}
+.icon-add-green:before {
+  content: "\e901";
+  color: #16a085;
+}
+.icon-arrow:before {
+  content: "\e902";
+}
+.icon-arrow-red:before {
+  content: "\e903";
+  color: #ff4c29;
+}
+.icon-deliverd:before {
+  content: "\e904";
+  color: #ff4c29;
+}
+.icon-gallery-arrow-gray:before {
+  content: "\e905";
+}
+.icon-gallery-arrow-red:before {
+  content: "\e906";
+}
+.icon-Icon-awesome-comments:before {
+  content: "\e907";
+  color: #16a085;
+}
+.icon-Icon-awesome-filter:before {
+  content: "\e908";
+  color: #ff4c29;
+}
+.icon-Icon-awesome-list:before {
+  content: "\e909";
+  color: #ff4c29;
+}
+.icon-Icon-feather-edit:before {
+  content: "\e90a";
+}
+.icon-Icon-feather-save:before {
+  content: "\e90b";
+}
+.icon-Icon-feather-shopping-cart:before {
+  content: "\e90c";
+}
+.icon-Icon-feather-star:before {
+  content: "\e90d";
+  color: #9b59b6;
+}
+.icon-Icon-feather-star-stroke:before {
+  content: "\e90e";
+}
+.icon-Icon-ionic-ios-add-circle-outline:before {
+  content: "\e90f";
+  color: #334756;
+}
+.icon-Icon-material-attach-money:before {
+  content: "\e910";
+  color: #ff4c29;
+}
+.icon-Icon-material-delete:before {
+  content: "\e911";
+  color: #ff4c29;
+}
+.icon-Icon-material-favorite:before {
+  content: "\e912";
+}
+.icon-Icon-metro-shop:before {
+  content: "\e913";
+  color: #ff4c29;
+}
+.icon-serch-color:before {
+  content: "\e914";
+}
+
+.icon-1:before {
+  content: "\e915";
+}
+.icon-Asset-1:before {
+  content: "\e902";
+}
+
+/* =================== Icons ==================== */

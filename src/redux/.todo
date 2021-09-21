@@ -1,0 +1,15 @@
+[x] => create initial data as placholders
+[x] => create Types (action and data)
+[x] => create action creators
+[x] => create shop reducer
+[x] => create the data store
+[x] => finish cart connector
+[x] => finish savedList connector
+[x] => style in right way (using bootstrap and styled component)
+[x] => finish model actions and model reducer
+[x] => finish Rest(action types)
+[x] => finish async middleware(middleWare)
+[x] => finish pagination control p**162 book
+[ ] => finish checkOutProcess p**168 book
+[ ] => finish product page
+[ ] => finish signUp and signIn pages

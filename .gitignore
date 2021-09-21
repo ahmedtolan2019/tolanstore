@@ -9,10 +9,8 @@
 /coverage
 
 # production
-/public
-/src
-/data.js
-/products.json
+/build
+
 
 # misc
 .DS_Store
