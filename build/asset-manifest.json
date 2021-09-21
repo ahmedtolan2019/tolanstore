@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e543187.chunk.css",
+    "main.js": "/static/js/main.eba538d3.chunk.js",
+    "main.js.map": "/static/js/main.eba538d3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4573f8b8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4573f8b8.js.map",
+    "static/css/2.e0be7ed1.chunk.css": "/static/css/2.e0be7ed1.chunk.css",
+    "static/js/2.17987582.chunk.js": "/static/js/2.17987582.chunk.js",
+    "static/js/2.17987582.chunk.js.map": "/static/js/2.17987582.chunk.js.map",
+    "static/js/3.68eea570.chunk.js": "/static/js/3.68eea570.chunk.js",
+    "static/js/3.68eea570.chunk.js.map": "/static/js/3.68eea570.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.e0be7ed1.chunk.css.map": "/static/css/2.e0be7ed1.chunk.css.map",
+    "static/css/main.4e543187.chunk.css.map": "/static/css/main.4e543187.chunk.css.map",
+    "static/js/2.17987582.chunk.js.LICENSE.txt": "/static/js/2.17987582.chunk.js.LICENSE.txt",
+    "static/media/Icon awesome-filter.f35ba341.svg": "/static/media/Icon awesome-filter.f35ba341.svg",
+    "static/media/Icon awesome-list.fc5babf6.svg": "/static/media/Icon awesome-list.fc5babf6.svg",
+    "static/media/Icon feather-shopping-cart.a448443f.svg": "/static/media/Icon feather-shopping-cart.a448443f.svg",
+    "static/media/arrow-red.ff3135f8.svg": "/static/media/arrow-red.ff3135f8.svg",
+    "static/media/fontello.css": "/static/media/fontello.e955c830.eot",
+    "static/media/serch-color.dc1fcd6c.svg": "/static/media/serch-color.dc1fcd6c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4573f8b8.js",
+    "static/css/2.e0be7ed1.chunk.css",
+    "static/js/2.17987582.chunk.js",
+    "static/css/main.4e543187.chunk.css",
+    "static/js/main.eba538d3.chunk.js"
+  ]
+}
